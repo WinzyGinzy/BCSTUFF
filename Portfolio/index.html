@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <meta name="description" content="Portfolio for Business College"/>
+    <meta name="author" content="Fedor Rakitin" />
+    <meta name="keywords" content="HTML5, CSS3, Portfolio" />
+    <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+    href="https://fonts.googleapis.com/css2?family=Lato:wght@300;700&display=swap"
+    rel="stylesheet"
+    />
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <header>
+      <div id="header" class="header-container">
+        <div class="logo">
+            <h2 class="logo">Fedor Rakitin</h2></a>
+        </div>
+        <button type="button" class="btn-menu" id="btnMenu">
+          <i class="fas fa-bars"></i>
+        </button>
+        <nav>
+          <ul>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="./gallery.html#gallery">Gallery</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+          </ul>
+        </nav>
+      </div>
+    
+    </header>
+
+    <main>
+      <section id="top" class="hero-banner">
+        <h2>Welcome to my portfolio</h2>
+      </section>
+      <section id="work">
+        <div class="container">
+          <h2>Work</h2>
+          <div class="cards-container">
+            <div class="card">
+              <img
+                src="https://source.unsplash.com/1600x900/?Helsinki"
+                alt="Helsinki"
+              />
+              <div class="card-content">
+            <h3>Lorem ipsum dolor sit.</h3>
+              </div>
+            </div>
+            <div class="card">
+              <img
+                src="https://source.unsplash.com/1600x900/?Vantaa"
+                alt="Vantaa"
+              />
+              <div class="card-content">
+                <h3>Lorem ipsum dolor sit.</h3>
+              </div>
+            </div>
+            <div class="card">
+              <img
+                src="https://source.unsplash.com/1600x900/?Espoo"
+                alt="Espoo"
+              />
+              <div class="card-content">
+                <h3>Lorem ipsum dolor sit.</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="experience">
+        <div class="container">
+          <h2>Experience</h2>
+          <img
+            class="float-left"
+            src="https://source.unsplash.com/xcUVwwdsWis/900x600"
+            alt="street"
+          />
+          <p>
+         Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt placeat ex commodi esse alias voluptatum itaque hic corporis, obcaecati deleniti voluptatibus, amet ea dolorem id rerum velit deserunt possimus exercitationem dolor est libero? Consectetur aspernatur fugit ratione nisi placeat perferendis ut enim dolore modi ipsum assumenda delectus incidunt sed maiores doloribus, illum facere eveniet cumque earum itaque. Obcaecati dicta quod, tenetur harum, repellendus delectus maxime, similique asperiores hic architecto sunt? Expedita delectus ut quisquam pariatur reprehenderit nisi doloremque cum dolorum voluptas, eius provident.
+          </p>
+        </div>
+      </section>
+      <section id="skills">
+        <div class="container">
+          <h2>Skills</h2>
+          <div class="skills-container">
+            <div class="skill">
+              <label>HTML</label>
+              <progress id="html5" value="80" max="100"></progress>
+              <p>80%</p>
+            </div>
+            <div class="skill">
+              <label>CSS</label>
+              <progress id="css3" value="70" max="100"></progress>
+              <p>70%</p>
+            </div>
+            <div class="skill">
+              <label>JavaScript</label>
+              <progress id="javascript" value="65" max="100"></progress>
+              <p>65%</p>
+            </div>
+            <div class="skill">
+              <label>React</label>
+              <progress id="react" value="55" max="100"></progress>
+              <p>55%</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="#">
+          <div class="contact-details">
+            <div class="contact-info form-input">
+              <label for="name">Your name</label>
+              <input type="text" name="name" id="name" class="lato-font" />
+            </div>
+            <div class="contact-info form-input">
+              <label for="email">Your email</label>
+              <input type="email" name="email" id="email" class="lato-font" />
+            </div>
+          </div>
+          <div class="form-input">
+            <label for="message">Message to me</label>
+            <textarea
+              name="message"
+              id="message"
+              class="lato-font"
+            ></textarea>
+          </div>
+          <div class="form-input">
+            <button type="submit" class="lato-font">Send message</button>
+          </div>
+        </form>
+      </section>
+      <p class="copyright">© Portfolio </p>
+      <a href="#top">
+        <button class="back-to-top"></button>
+      </a>
+    </footer>
+    <script src="main.js"></script>
+  </body>
+</html>
