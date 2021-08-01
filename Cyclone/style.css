@@ -1,0 +1,33 @@
+#bulbs {
+  top: 200px;
+  left: 300px;
+  height: 400px;
+  width: 400px;
+  position: relative;
+}
+
+.bulb {
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  background-color: green;
+  margin: 5px;
+  display: inline-block;
+  border-radius: 50%;
+}
+
+.bulb.winner {
+  background: red;
+}
+
+.bulb.active {
+  background: yellow;
+}
+
+button {
+  height: 90px;
+  width: 90px;
+  font-weight: 300;
+  font-size: 20px;
+  background-color: greenyellow;
+}
