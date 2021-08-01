@@ -1,0 +1,31 @@
+.gameover {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.795);
+  display: grid;
+  justify-items: center;
+  align-items: center;
+}
+
+.popup {
+  background: white;
+  padding: 1rem;
+  width: 45%;
+  min-height: 25%;
+  border-radius: 3px;
+  position: relative;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+}
+
+.popup button {
+  background: white;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  cursor: pointer;
+}

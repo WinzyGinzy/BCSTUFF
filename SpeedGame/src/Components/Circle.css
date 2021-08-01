@@ -1,0 +1,30 @@
+.active {
+  background-image: url("../assets/img/target.png");
+}
+
+.circle {
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  margin: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.red {
+  background-color: red;
+}
+
+.orange {
+  background-color: orange;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.green {
+  background-color: green;
+}

@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+
+body {
+  font-family: "Anton";
+  background-image: linear-gradient(to right top, red, orange, yellow);
+  background-attachment: fixed;
+  text-align: center;
+}
+
+button {
+  font-family: inherit;
+  padding: 1rem;
+  margin: 1rem;
+  background: white;
+  box-shadow: 0 0 10px rgb(0, 0, 0);
+  border: none;
+  border-radius: 3px;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
