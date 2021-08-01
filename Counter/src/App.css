@@ -1,0 +1,36 @@
+h2 {
+  margin-left: 135px;
+}
+
+.circle {
+  background-color: rgb(255, 255, 255);
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 150px;
+}
+
+.even {
+  background-color:lightgreen;
+}
+
+.odd {
+  background-color: red;
+}
+
+.buttons {
+  margin-left: 135px;
+}
+
+button {
+  margin: 0px 6px;
+  padding: 10px;
+  font-size: 18px;
+}
+
+footer {
+  margin-left: 130px;
+}
