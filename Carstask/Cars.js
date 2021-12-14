@@ -17,7 +17,7 @@ module.exports = class CarStorage {
 			}
 			return null;
 		}
-	} // end of getById()
+	} 
 
 	getAllIdsByManufacturer(value) {
 		let carIds = [];
@@ -31,7 +31,7 @@ module.exports = class CarStorage {
 			}
 		}
 		return carIds;
-	} // end of getAllIdsByManufacturer()
+	} 
 
 	getAllCarTypes() {
 		let carTypes = [];
@@ -44,7 +44,7 @@ module.exports = class CarStorage {
 			}
 		}
 		return carTypes;
-	} // end of getAllCarTypes()
+	} 
 
 	getAllCarsByType(type) {
 		let allCars = [];
@@ -58,7 +58,7 @@ module.exports = class CarStorage {
 			}
 		}
 		return allCars;
-	} // end of getAllCarsByType()
+	} 
 
 	getCarAccessories(id) {
 		if (!id) {
@@ -74,7 +74,7 @@ module.exports = class CarStorage {
 			}
 		}
 		throw new Error("no car with given id is found");
-	} // end of getCarAccessories()
+	} 
 
 	hasAccessories(id) {
 		if (!id) {
@@ -119,7 +119,7 @@ module.exports = class CarStorage {
 			}
 		}
 		throw new Error("nothing found with given id");
-	} // end of getTotalPrice()
+	} 
 
 	getPriceOfTheExtras(id) {
 		if (!id) {
@@ -138,8 +138,5 @@ module.exports = class CarStorage {
 			}
 		}
 		throw new Error("nothing found with given id");
-	} // end of getPriceOfTheExtras()
-}; // end of class
-
-//
-
+	} 
+}; 

@@ -1,8 +1,8 @@
 {
-	"name": "carstask",
+	"name": "diceproject",
 	"version": "1.0.0",
 	"description": "",
-	"main": "cars.js",
+	"main": "index.js",
 	"scripts": {
 		"test": "jest"
 	},
@@ -10,6 +10,6 @@
 	"author": "",
 	"license": "ISC",
 	"devDependencies": {
-		"jest": "^27.1.1"
+		"jest": "^27.0.6"
 	}
 }
